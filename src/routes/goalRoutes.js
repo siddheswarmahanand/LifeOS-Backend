@@ -26,4 +26,4 @@ router.put("/:id/complete", protect, completeGoal);
 // 🗑 Delete Goal
 router.delete("/:id", protect, deleteGoal);
 
-module.exports = router;g
+module.exports = router;
